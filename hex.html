@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <nav class="bg-white py-4 sticky top-0">
+        <ul class="flex justify-center items-center gap-24 lg:gap-72 text-xl font-medium">
+            <li>
+                <a href="index.html">RGB Color</a>
+            </li>
+            <li>
+                <a href="hex.html" class="text-[#49a6e9]">HEX Color</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="min-h-[630px] w-screen bg-[#f1f5f8] grid place-content-center gap-16">
+
+        <div class="bg-black text-white px-12 lg:px-20 py-6 rounded-lg">
+            <h2 class="text-xl font-medium">BackGround Color: <span id="colorId" class="pl-3">#f1f5f8</span></h2>
+        </div>
+
+        <div class="text-center">
+            <button class="border-2 border-black rounded-lg px-6 py-[8px] text-xl font-medium">Click Me</button>
+        </div>
+
+    </main>
+</body>
+</html>
