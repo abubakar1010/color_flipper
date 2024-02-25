@@ -20,8 +20,10 @@
     </nav>
     <main id="bghex" class="min-h-[630px] w-screen bg-[#f1f5f8] grid place-content-center gap-16">
 
-        <div class="bg-black text-white px-12 lg:px-20 py-6 rounded-lg ">
-            <h2 class="text-xl font-medium lg:text-4xl lg:font-bold">BackGround Color: <span id="colorId" class="pl-3">#f1f5f8</span></h2>
+        <div class="bg-black text-white px-12 lg:px-20 py-6 rounded-lg flex gap-3 lg:gap-14 relative">
+            <h2 class="text-lg font-medium lg:text-4xl lg:font-bold">BackGround Color: <span id="colorId" class="pl-3">#f1f5f8</span></h2>
+            <button id="copied" class="text-lg lg:text-xl font-medium border-2 border-gray-400 px-2 rounded-lg lg:px-4 py-2">Copy</button>
+            <p id="copyfield" class="absolute -top-2 right-3 bg-black shadow-lg shadow-green-200 text-white px-4 py-2 rounded-md scale-0 transition-transform duration-300">Copied</p>
         </div>
 
         <div class="text-center">
